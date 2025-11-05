@@ -1,0 +1,23 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+
+    "build":" npm install --prefix server  && npm run build --prefix client && npm run build --prefix client",
+    "start": "npm run start --prefix server"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dalwin987/CHAT-A.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dalwin987/CHAT-A/issues"
+  },
+  "homepage": "https://github.com/Dalwin987/CHAT-A#readme",
+  "description": ""
+}
